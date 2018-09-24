@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Andrea's Travel Playlist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Include Resource Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="css/foundation.min.css"/>
+
+    <!-- Include font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet">
+
+		<!--
+			Include Resource Javascript
+
+			NOTE: These are for handling things outside of the scope of AmplitudeJS
+		-->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/foundation.min.js"></script>
+
+		<!-- Include Amplitude JS -->
+		<script type="text/javascript" src="js/amplitude.js"></script>
+
+
+		<!--
+			Include UX functions JS
+
+			NOTE: These are for handling things outside of the scope of AmplitudeJS
+		-->
+		<script type="text/javascript" src="js/functions.js"></script>
+
+		<!-- Include Style Sheet -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-6 medium-6 small-12 large-centered medium-centered columns">
+        <div id="flat-black-player-container">
+            <div id="list-screen" class="slide-in-top">
+
+              <div id="list-screen-header" class="hide-playlist">
+                <img id="up-arrow" src="img/up.svg"/>
+                Hide Playlist
+              </div>
+
+              <div id="list">
+                <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="0">
+                  <span class="song-number-now-playing">
+                    <span class="number">1</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name">California</span>
+                    <span class="song-artist-album">Childish Gambino</span>
+                  </div>
+
+                  <span class="song-duration">
+                    --
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="1">
+                  <span class="song-number-now-playing">
+                    <span class="number">2</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name">Cold War</span>
+                    <span class="song-artist-album">Cautious Clay</span>
+                  </div>
+
+                  <span class="song-duration">
+                    --
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="2">
+                  <span class="song-number-now-playing">
+                    <span class="number">3</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name">Blur</span>
+                    <span class="song-artist-album">Ghost Ship</span>
+                  </div>
+
+                  <span class="song-duration">
+                    --
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="3">
+                  <span class="song-number-now-playing">
+                    <span class="number">4</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name">Sky Walker</span>
+                    <span class="song-artist-album">Miguel</span>
+                  </div>
+
+                  <span class="song-duration">
+                    --
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="4">
+                  <span class="song-number-now-playing">
+                    <span class="number">5</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name">1000 Emerald Pools</span>
+                    <span class="song-artist-album">BRNS</span>
+                  </div>
+
+                  <span class="song-duration">
+                    --
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="5">
+                  <span class="song-number-now-playing">
+                    <span class="number">6</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name">Shake Em' Off</span>
+                    <span class="song-artist-album">Big Krit</span>
+                  </div>
+
+                  <span class="song-duration">
+                    --
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="6">
+                  <span class="song-number-now-playing">
+                    <span class="number">7</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name">Come Down</span>
+                    <span class="song-artist-album">Anderson Paak</span>
+                  </div>
+
+                  <span class="song-duration">
+                    --
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="7">
+                  <span class="song-number-now-playing">
+                    <span class="number">8</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name">Mine</span>
+                    <span class="song-artist-album">Bazzi</span>
+                  </div>
+
+                  <span class="song-duration">
+                    --
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="8">
+                  <span class="song-number-now-playing">
+                    <span class="number">9</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name">The Dreamer</span>
+                    <span class="song-artist-album">Anderson Paak & Talib Kweli</span>
+                  </div>
+
+                  <span class="song-duration">
+                    --
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="9">
+                  <span class="song-number-now-playing">
+                    <span class="number">10</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name">Stoopid Rich</span>
+                    <span class="song-artist-album">Crankdat Havok Roth</span>
+                  </div>
+
+                  <span class="song-duration">
+                    --
+                  <span>
+                </div>
+              </div>
+              <div id="list-screen-footer">
+                <div id="list-screen-meta-container">
+                  <span amplitude-song-info="name" amplitude-main-song-info="true" class="song-name"></span>
+
+                  <div class="song-artist-album">
+                    <span amplitude-song-info="artist" amplitude-main-song-info="true"></span>
+                  </div>
+                </div>
+                <div class="list-controls">
+                  <div class="list-previous amplitude-prev"></div>
+                  <div class="list-play-pause amplitude-play-pause" amplitude-main-play-pause="true"></div>
+                  <div class="list-next amplitude-next"></div>
+                </div>
+              </div>
+            </div>
+            <div id="player-screen">
+              <div class="player-header down-header">
+                <img id="down" src="img/down.svg"/>
+                <h4 style="line-height: 30px;">Show Andrea's Travel Playlist</h4>
+              </div>
+              <div id="player-top">
+                <img id="cover-art" amplitude-song-info="cover_art_url" amplitude-main-song-info="true"/>
+                
+              </div>
+              <div id="player-progress-bar-container">
+                <progress id="song-played-progress" class="amplitude-song-played-progress" amplitude-main-song-played-progress="true"></progress>
+                <progress id="song-buffered-progress" class="amplitude-buffered-progress" value="0"></progress>
+              </div>
+              <div id="player-middle">
+                <div id="time-container">
+                  <span class="amplitude-current-time time-container" amplitude-main-current-time="true"></span>
+                  <span class="amplitude-duration-time time-container" amplitude-main-duration-time="true"></span>
+                </div>
+                <div id="meta-container">
+                  <span amplitude-song-info="name" amplitude-main-song-info="true" class="song-name"></span>
+
+                  <div class="song-artist-album">
+                    <span amplitude-song-info="artist" amplitude-main-song-info="true"></span>
+                  </div>
+                </div>
+              </div>
+              <div id="player-bottom">
+                <div id="control-container">
+
+                  <div id="shuffle-container">
+                    <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle"></div>
+                  </div>
+
+                  <div id="prev-container">
+                    <div class="amplitude-prev" id="previous"></div>
+                  </div>
+
+                  <div id="play-pause-container">
+                    <div class="amplitude-play-pause" amplitude-main-play-pause="true" id="play-pause"></div>
+                  </div>
+
+                  <div id="next-container">
+                    <div class="amplitude-next" id="next"></div>
+                  </div>
+
+                  <div id="repeat-container">
+                    <div class="amplitude-repeat" id="repeat"></div>
+                  </div>
+
+                </div>
+
+                <div id="volume-container">
+                  <img src="img/volume.svg"/><input type="range" class="amplitude-volume-slider" step=".1"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="musicType">TRAVEL | <a href="sleep.html">SLEEP</a></div> 
+  </body>
+  <script type="text/javascript">
+		Amplitude.init({
+      "bindings": {
+        37: 'prev',
+        39: 'next',
+        32: 'play_pause'
+      },
+			"songs": [
+				{
+					"name": "California",
+					"artist": "Childish Gambino",
+					"album": "",
+					"url": "songs/travel/1 - Childish Gambino - California.mp3",
+					"cover_art_url": "album-art/flowers.jpg"
+				},
+				{
+					"name": "Cold War",
+					"artist": "Cautious Clay",
+					"album": "",
+					"url": "songs/travel/2 - Cautious Clay - Cold War.mp3",
+					"cover_art_url": "album-art/flowers2.jpg"
+				},
+				{
+					"name": "Blur",
+					"artist": "Ghost Ship",
+					"album": "",
+					"url": "songs/travel/3 - Blur - Ghost Ship.mp3",
+					"cover_art_url": "album-art/flowers3.jpg"
+				},
+				{
+					"name": "Sky Walker",
+					"artist": "Miguel",
+					"album": "",
+					"url": "songs/travel/4 - Miguel - Sky Walker ft Travis Scott.mp3",
+					"cover_art_url": "album-art/flowers4.jpg"
+				},
+				{
+					"name": "1000 Emerald Pools",
+					"artist": "BRNS",
+					"album": "",
+					"url": "songs/travel/5 - BRNS - 10000 Emerald Pools.mp3",
+					"cover_art_url": "album-art/flowers5.jpg"
+				},
+				{
+					"name": "Shake Em' Off",
+					"artist": "Big K.R.I.T.",
+					"album": "",
+					"url": "songs/travel/6 - Big KRIT - Shake Em Off Feat Ludacris.mp3",
+					"cover_art_url": "album-art/flowers6.jpg"
+				},
+				{
+					"name": "Come Down",
+					"artist": "Anderson Paak",
+					"album": "",
+					"url": "songs/travel/7 - Anderson Paak - Come Down.mp3",
+					"cover_art_url": "album-art/flowers7.jpg"
+				},
+				{
+					"name": "Mine",
+					"artist": "Bazzi",
+					"album": "",
+					"url": "songs/travel/8 - Bazzi - Mine Official Video.mp3",
+					"cover_art_url": "album-art/flowers8.jpg"
+				},
+				{
+					"name": "The Dreamer",
+					"artist": "Anderson Paak ft. Talib Kweli",
+					"album": "",
+					"url": "songs/travel/9 - Anderson Paak - The Dreamer (feat. Talib Kweli & Timan Family Choir).mp3",
+					"cover_art_url": "album-art/flowers9.jpg"
+				},
+				{
+					"name": "Stoopid Rich",
+					"artist": "Crankdat Havok Roth",
+					"album": "",
+					"url": "songs/travel/10 - Crankdat Havok Roth feat TITUS - Stoopid Rich.mp3",
+					"cover_art_url": "album-art/flowers10.jpg"
+				}
+			]
+		});
+
+	</script>
+  <script type="text/javascript">
+    var coverArt = document.getElementById('cover-art');
+    var playerTop = document.getElementById('player-top');
+    coverArt.style.opacity = "0";
+    playerTop.style.backgroundImage = "url(" + coverArt.getAttribute("src") + ")";
+    playerTop.style.backgroundSize = "cover";
+    playerTop.style.backgroundRepeat = "no-repeat";
+
+    document.getElementsByTagName("body")[0].onclick = function(){
+      coverArt.style.opacity = "0";
+      playerTop.style.backgroundImage = "url(" + coverArt.getAttribute("src") + ")";
+      playerTop.style.backgroundSize = "cover";
+      playerTop.style.backgroundRepeat = "no-repeat";
+    };
+  </script>
+</html>
